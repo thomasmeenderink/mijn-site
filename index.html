@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thomas</title>
+  <meta name="description" content="Persoonlijke site van Thomas.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="./" class="logo">Thomas<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="./" aria-current="page">Home</a></li>
+        <li><a href="over.html">Over mij</a></li>
+        <li><a href="links.html">Links</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="eyebrow reveal"><span class="dot"></span> Welkom op mijn site</span>
+        <h1 class="reveal" style="--delay: 80ms">Hoi, ik ben <span class="gradient-text">Thomas</span>.</h1>
+        <p class="lead reveal" style="--delay: 160ms">
+          Hier vertel ik wie ik ben, waar ik mee bezig ben en wat me bezighoudt.
+          Scroll rustig verder of neem een kijkje op de andere pagina's.
+        </p>
+        <div class="actions reveal" style="--delay: 240ms">
+          <a href="over.html" class="btn btn-primary">Meer over mij <span class="arrow">→</span></a>
+          <a href="#interesses" class="btn btn-ghost">Wat ik leuk vind</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="interesses">
+      <div class="container">
+        <p class="section-label reveal">Interesses</p>
+        <h2 class="reveal" style="--delay: 80ms">Waar ik energie van krijg</h2>
+        <div class="grid">
+          <article class="card reveal">
+            <div class="icon">💻</div>
+            <h3>Bouwen</h3>
+            <p>Websites, games en kleine tools maken. Van idee tot iets wat echt werkt.</p>
+          </article>
+          <article class="card reveal" style="--delay: 100ms">
+            <div class="icon">🎮</div>
+            <h3>Gaming</h3>
+            <p>Spellen spelen, en steeds vaker ook zelf werelden ontwerpen.</p>
+          </article>
+          <article class="card reveal" style="--delay: 200ms">
+            <div class="icon">✨</div>
+            <h3>Design</h3>
+            <p>Dingen die er goed uitzien en soepel aanvoelen, tot in de kleinste animatie.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year></span> Thomas</span>
+      <span>Gemaakt met HTML, CSS & een beetje magie</span>
+    </div>
+  </footer>
+</body>
+</html>
